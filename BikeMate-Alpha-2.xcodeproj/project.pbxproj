@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D450362AE9504A00156F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450352AE9504A00156F23 /* AppDelegate.swift */; };
+		84D450382AE9504A00156F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450372AE9504A00156F23 /* SceneDelegate.swift */; };
+		84D4503A2AE9504A00156F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450392AE9504A00156F23 /* ViewController.swift */; };
+		84D4503D2AE9504A00156F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D4503B2AE9504A00156F23 /* Main.storyboard */; };
+		84D4503F2AE9504B00156F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D4503E2AE9504B00156F23 /* Assets.xcassets */; };
+		84D450422AE9504B00156F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D450402AE9504B00156F23 /* LaunchScreen.storyboard */; };
+		84D4504D2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */; };
+		84D450572AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */; };
+		84D450592AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */; };
+		84D450662AE951AF00156F23 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D450652AE951AF00156F23 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D450492AE9504C00156F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D4502A2AE9504A00156F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D450312AE9504A00156F23;
+			remoteInfo = "BikeMate-Alpha-2";
+		};
+		84D450532AE9504C00156F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D4502A2AE9504A00156F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D450312AE9504A00156F23;
+			remoteInfo = "BikeMate-Alpha-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D450322AE9504A00156F23 /* BikeMate-Alpha-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BikeMate-Alpha-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D450352AE9504A00156F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D450372AE9504A00156F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84D450392AE9504A00156F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D4503C2AE9504A00156F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D4503E2AE9504B00156F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D450412AE9504B00156F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D450432AE9504B00156F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D450482AE9504C00156F23 /* BikeMate-Alpha-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeMate-Alpha-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2Tests.swift; sourceTree = "<group>"; };
+		84D450522AE9504C00156F23 /* BikeMate-Alpha-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeMate-Alpha-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2UITests.swift; sourceTree = "<group>"; };
+		84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84D450652AE951AF00156F23 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D4502F2AE9504A00156F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D450452AE9504C00156F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4504F2AE9504C00156F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D450292AE9504A00156F23 = {
+			isa = PBXGroup;
+			children = (
+				84D450342AE9504A00156F23 /* BikeMate-Alpha-2 */,
+				84D4504B2AE9504C00156F23 /* BikeMate-Alpha-2Tests */,
+				84D450552AE9504C00156F23 /* BikeMate-Alpha-2UITests */,
+				84D450332AE9504A00156F23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D450332AE9504A00156F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D450322AE9504A00156F23 /* BikeMate-Alpha-2.app */,
+				84D450482AE9504C00156F23 /* BikeMate-Alpha-2Tests.xctest */,
+				84D450522AE9504C00156F23 /* BikeMate-Alpha-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D450342AE9504A00156F23 /* BikeMate-Alpha-2 */ = {
+			isa = PBXGroup;
+			children = (
+				84D450352AE9504A00156F23 /* AppDelegate.swift */,
+				84D450372AE9504A00156F23 /* SceneDelegate.swift */,
+				84D450392AE9504A00156F23 /* ViewController.swift */,
+				84D4503B2AE9504A00156F23 /* Main.storyboard */,
+				84D4503E2AE9504B00156F23 /* Assets.xcassets */,
+				84D450402AE9504B00156F23 /* LaunchScreen.storyboard */,
+				84D450652AE951AF00156F23 /* Storyboard.storyboard */,
+				84D450432AE9504B00156F23 /* Info.plist */,
+			);
+			path = "BikeMate-Alpha-2";
+			sourceTree = "<group>";
+		};
+		84D4504B2AE9504C00156F23 /* BikeMate-Alpha-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */,
+			);
+			path = "BikeMate-Alpha-2Tests";
+			sourceTree = "<group>";
+		};
+		84D450552AE9504C00156F23 /* BikeMate-Alpha-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */,
+				84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */,
+			);
+			path = "BikeMate-Alpha-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D450312AE9504A00156F23 /* BikeMate-Alpha-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4505C2AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2" */;
+			buildPhases = (
+				84D4502E2AE9504A00156F23 /* Sources */,
+				84D4502F2AE9504A00156F23 /* Frameworks */,
+				84D450302AE9504A00156F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BikeMate-Alpha-2";
+			productName = "BikeMate-Alpha-2";
+			productReference = 84D450322AE9504A00156F23 /* BikeMate-Alpha-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D450472AE9504C00156F23 /* BikeMate-Alpha-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4505F2AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2Tests" */;
+			buildPhases = (
+				84D450442AE9504C00156F23 /* Sources */,
+				84D450452AE9504C00156F23 /* Frameworks */,
+				84D450462AE9504C00156F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D4504A2AE9504C00156F23 /* PBXTargetDependency */,
+			);
+			name = "BikeMate-Alpha-2Tests";
+			productName = "BikeMate-Alpha-2Tests";
+			productReference = 84D450482AE9504C00156F23 /* BikeMate-Alpha-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D450512AE9504C00156F23 /* BikeMate-Alpha-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D450622AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2UITests" */;
+			buildPhases = (
+				84D4504E2AE9504C00156F23 /* Sources */,
+				84D4504F2AE9504C00156F23 /* Frameworks */,
+				84D450502AE9504C00156F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D450542AE9504C00156F23 /* PBXTargetDependency */,
+			);
+			name = "BikeMate-Alpha-2UITests";
+			productName = "BikeMate-Alpha-2UITests";
+			productReference = 84D450522AE9504C00156F23 /* BikeMate-Alpha-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D4502A2AE9504A00156F23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84D450312AE9504A00156F23 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					84D450472AE9504C00156F23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 84D450312AE9504A00156F23;
+					};
+					84D450512AE9504C00156F23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 84D450312AE9504A00156F23;
+					};
+				};
+			};
+			buildConfigurationList = 84D4502D2AE9504A00156F23 /* Build configuration list for PBXProject "BikeMate-Alpha-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D450292AE9504A00156F23;
+			productRefGroup = 84D450332AE9504A00156F23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D450312AE9504A00156F23 /* BikeMate-Alpha-2 */,
+				84D450472AE9504C00156F23 /* BikeMate-Alpha-2Tests */,
+				84D450512AE9504C00156F23 /* BikeMate-Alpha-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D450302AE9504A00156F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D450422AE9504B00156F23 /* LaunchScreen.storyboard in Resources */,
+				84D450662AE951AF00156F23 /* Storyboard.storyboard in Resources */,
+				84D4503F2AE9504B00156F23 /* Assets.xcassets in Resources */,
+				84D4503D2AE9504A00156F23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D450462AE9504C00156F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D450502AE9504C00156F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D4502E2AE9504A00156F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4503A2AE9504A00156F23 /* ViewController.swift in Sources */,
+				84D450362AE9504A00156F23 /* AppDelegate.swift in Sources */,
+				84D450382AE9504A00156F23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D450442AE9504C00156F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4504D2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4504E2AE9504C00156F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D450592AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift in Sources */,
+				84D450572AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D4504A2AE9504C00156F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D450312AE9504A00156F23 /* BikeMate-Alpha-2 */;
+			targetProxy = 84D450492AE9504C00156F23 /* PBXContainerItemProxy */;
+		};
+		84D450542AE9504C00156F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D450312AE9504A00156F23 /* BikeMate-Alpha-2 */;
+			targetProxy = 84D450532AE9504C00156F23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D4503B2AE9504A00156F23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D4503C2AE9504A00156F23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D450402AE9504B00156F23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D450412AE9504B00156F23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D4505A2AE9504C00156F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D4505B2AE9504C00156F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D4505D2AE9504C00156F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BikeMate-Alpha-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D4505E2AE9504C00156F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BikeMate-Alpha-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D450602AE9504C00156F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeMate-Alpha-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BikeMate-Alpha-2";
+			};
+			name = Debug;
+		};
+		84D450612AE9504C00156F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeMate-Alpha-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BikeMate-Alpha-2";
+			};
+			name = Release;
+		};
+		84D450632AE9504C00156F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BikeMate-Alpha-2";
+			};
+			name = Debug;
+		};
+		84D450642AE9504C00156F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMAWTEK.BikeMate-Alpha-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BikeMate-Alpha-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D4502D2AE9504A00156F23 /* Build configuration list for PBXProject "BikeMate-Alpha-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4505A2AE9504C00156F23 /* Debug */,
+				84D4505B2AE9504C00156F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4505C2AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4505D2AE9504C00156F23 /* Debug */,
+				84D4505E2AE9504C00156F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4505F2AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D450602AE9504C00156F23 /* Debug */,
+				84D450612AE9504C00156F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D450622AE9504C00156F23 /* Build configuration list for PBXNativeTarget "BikeMate-Alpha-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D450632AE9504C00156F23 /* Debug */,
+				84D450642AE9504C00156F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D4502A2AE9504A00156F23 /* Project object */;
+}
