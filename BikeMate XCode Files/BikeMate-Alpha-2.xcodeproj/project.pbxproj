@@ -12,11 +12,6 @@
 		84D4503A2AE9504A00156F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450392AE9504A00156F23 /* ViewController.swift */; };
 		84D4503D2AE9504A00156F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D4503B2AE9504A00156F23 /* Main.storyboard */; };
 		84D4503F2AE9504B00156F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D4503E2AE9504B00156F23 /* Assets.xcassets */; };
-		84D450422AE9504B00156F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D450402AE9504B00156F23 /* LaunchScreen.storyboard */; };
-		84D4504D2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */; };
-		84D450572AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */; };
-		84D450592AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */; };
-		84D450662AE951AF00156F23 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D450652AE951AF00156F23 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +38,9 @@
 		84D450392AE9504A00156F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D4503C2AE9504A00156F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D4503E2AE9504B00156F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84D450412AE9504B00156F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D450432AE9504B00156F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D450482AE9504C00156F23 /* BikeMate-Alpha-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeMate-Alpha-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2Tests.swift; sourceTree = "<group>"; };
 		84D450522AE9504C00156F23 /* BikeMate-Alpha-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeMate-Alpha-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2UITests.swift; sourceTree = "<group>"; };
-		84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMate_Alpha_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		84D450652AE951AF00156F23 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				84D450342AE9504A00156F23 /* BikeMate-Alpha-2 */,
-				84D4504B2AE9504C00156F23 /* BikeMate-Alpha-2Tests */,
-				84D450552AE9504C00156F23 /* BikeMate-Alpha-2UITests */,
 				84D450332AE9504A00156F23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,28 +94,9 @@
 				84D450392AE9504A00156F23 /* ViewController.swift */,
 				84D4503B2AE9504A00156F23 /* Main.storyboard */,
 				84D4503E2AE9504B00156F23 /* Assets.xcassets */,
-				84D450402AE9504B00156F23 /* LaunchScreen.storyboard */,
-				84D450652AE951AF00156F23 /* Storyboard.storyboard */,
 				84D450432AE9504B00156F23 /* Info.plist */,
 			);
 			path = "BikeMate-Alpha-2";
-			sourceTree = "<group>";
-		};
-		84D4504B2AE9504C00156F23 /* BikeMate-Alpha-2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				84D4504C2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift */,
-			);
-			path = "BikeMate-Alpha-2Tests";
-			sourceTree = "<group>";
-		};
-		84D450552AE9504C00156F23 /* BikeMate-Alpha-2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				84D450562AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift */,
-				84D450582AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift */,
-			);
-			path = "BikeMate-Alpha-2UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D450422AE9504B00156F23 /* LaunchScreen.storyboard in Resources */,
-				84D450662AE951AF00156F23 /* Storyboard.storyboard in Resources */,
 				84D4503F2AE9504B00156F23 /* Assets.xcassets in Resources */,
 				84D4503D2AE9504A00156F23 /* Main.storyboard in Resources */,
 			);
@@ -272,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D4504D2AE9504C00156F23 /* BikeMate_Alpha_2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D450592AE9504C00156F23 /* BikeMate_Alpha_2UITestsLaunchTests.swift in Sources */,
-				84D450572AE9504C00156F23 /* BikeMate_Alpha_2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +271,6 @@
 				84D4503C2AE9504A00156F23 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84D450402AE9504B00156F23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84D450412AE9504B00156F23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
